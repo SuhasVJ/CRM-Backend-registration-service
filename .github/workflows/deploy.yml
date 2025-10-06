@@ -7,7 +7,7 @@ on:
 env:
   AWS_REGION: eu-north-1           # your AWS region
   ECR_REPOSITORY: crm-registration-service
-  ECS_SERVICE: crm-service
+  ECS_SERVICE: crm-registration-service
   ECS_CLUSTER: crm-registration-service01
   ECS_TASK_DEFINITION: crm-task     # task definition name (you’ll create this)
   CONTAINER_NAME: crm-container
