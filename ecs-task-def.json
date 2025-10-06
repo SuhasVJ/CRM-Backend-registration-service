@@ -1,0 +1,20 @@
+{
+  "family": "registration-service",
+  "networkMode": "awsvpc",
+  "containerDefinitions": [
+    {
+      "name": "registration-service-container",
+      "image": "198249843452.dkr.ecr.eu-north-1.amazonaws.com/crm-registration-service:latest",
+      "essential": true,
+      "portMappings": [
+        {
+          "containerPort": 8080,
+          "hostPort": 8080
+        }
+      ]
+    }
+  ],
+  "requiresCompatibilities": ["FARGATE"],
+  "cpu": "512",
+  "memory": "1024"
+}
