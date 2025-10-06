@@ -1,5 +1,6 @@
 {
   "family": "registration-service",
+  "executionRoleArn": "arn:aws:iam::198249843452:role/ecsTaskExecutionRole",
   "networkMode": "awsvpc",
   "containerDefinitions": [
     {
