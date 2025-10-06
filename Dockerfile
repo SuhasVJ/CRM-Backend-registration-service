@@ -5,7 +5,7 @@ FROM openjdk:17-jdk-slim
 WORKDIR /app
 
 # Copy the Spring Boot jar file into the container
-COPY target/CRM-Backend-registration-service-0.0.1-SNAPSHOT.jar app.jar
+COPY target/registration-service-0.0.1-SNAPSHOT.jar app.jar
 
 # Expose port 8080 to the outside world
 EXPOSE 8080
