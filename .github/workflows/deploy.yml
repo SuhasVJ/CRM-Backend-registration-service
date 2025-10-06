@@ -10,7 +10,7 @@ env:
   ECS_SERVICE: crm-registration-service
   ECS_CLUSTER: crm-registration-service01
   ECS_TASK_DEFINITION: crm-task     # task definition name (you’ll create this)
-  CONTAINER_NAME: crm-container
+  CONTAINER_NAME: registration-service-container
 
 jobs:
   deploy:
