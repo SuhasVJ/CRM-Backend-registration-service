@@ -11,7 +11,7 @@
 	<groupId>com.crm</groupId>
 	<artifactId>registration-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>CRM-Backend-registration-service</name>
+	<name>registration-service</name>
 	<description>Configurable Registration Microservice -Backend-registration-service</description>
 	<url/>
 	<licenses>
